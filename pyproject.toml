@@ -1,0 +1,11 @@
+[project]
+name = "ai-action-firewall"
+version = "0.1.0"
+description = "AI agent action security and risk control platform"
+requires-python = ">=3.13,<3.14"
+authors = [
+    { name = "Aizaz Ur Rahman" }
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
