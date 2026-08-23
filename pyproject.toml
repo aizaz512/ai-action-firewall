@@ -8,6 +8,7 @@ authors = [
 ]
 dependencies = [
     "fastapi[standard]>=0.141.1",
+    "pydantic-settings>=2.15.0",
 ]
 
 [dependency-groups]
