@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 
+from backend.app.api.health import router as health_router
 
 app = FastAPI(
     title="AI Action Firewall",
@@ -7,8 +8,4 @@ app = FastAPI(
     version="0.1.0",
 )
 
-
-@app.get("/health")
-def health_check() -> dict[str, str]:
-    """Return the current API health status."""
-    return {"status": "healthy"}
+app.include_router(health_router)
