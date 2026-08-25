@@ -4,13 +4,14 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Tests](https://img.shields.io/badge/Tests-Pytest-0A9EDC)](https://pytest.org/)
+[![Tests](https://img.shields.io/badge/Tests-Pytest-0A9EDC?logo=pytest&logoColor=white)](https://pytest.org/)
 [![Lint](https://img.shields.io/badge/Lint-Ruff-D7FF64)](https://docs.astral.sh/ruff/)
 [![Status](https://img.shields.io/badge/Status-MVP%20Development-orange)](#project-status)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 
-## 🎯 Overview
+## 🎯 What is AI Action Firewall?
 
-AI Action Firewall is a production-oriented security layer between an AI agent and the tools/APIs it wants to use. It evaluates requested actions against identity, permissions, policies and risk signals before deciding whether the action should be **allowed, monitored, approved or blocked**.
+AI Action Firewall is a production-oriented security layer between an AI agent and the tools/APIs it wants to use. It evaluates requested actions against identity, permissions, policies and risk signals before deciding whether an action should be **allowed, monitored, approved or blocked**.
 
 ## ✨ Core Capabilities
 
@@ -116,16 +117,20 @@ uv run ruff check backend tests
 - [ ] Usage metering and billing
 - [ ] Public SaaS launch
 
-## 💼 Portfolio Value
+## 💼 Why This Project Matters
 
-This repository demonstrates product thinking, backend architecture, security controls, testing, documentation and a roadmap from MVP to SaaS.
+The project is designed around a real engineering problem: AI agents increasingly need access to external tools and business systems, creating a need for policy enforcement, risk evaluation and auditability around agent actions.
 
 ## 👤 Author
 
 **Aizaz Ur Rahman** — Python Developer & AI/ML Engineer
 
-[GitHub](https://github.com/aizaz512) · [Repositories](https://github.com/aizaz512?tab=repositories)
+[GitHub](https://github.com/aizaz512) · [All Projects](https://github.com/aizaz512?tab=repositories)
 
 ---
 
 ⭐ If you find the project interesting, consider starring the repository.
+
+## License
+
+MIT
