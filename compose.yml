@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: ai-action-firewall-postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: ai_action_firewall
+      POSTGRES_USER: app_user
+      POSTGRES_PASSWORD: development_password
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

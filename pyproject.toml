@@ -8,7 +8,9 @@ authors = [
 ]
 dependencies = [
     "fastapi[standard]>=0.141.1",
+    "psycopg[binary]>=3.3.4",
     "pydantic-settings>=2.15.0",
+    "sqlalchemy>=2.0.52",
 ]
 
 [dependency-groups]
